@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-size: 1em;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+form {
+    border: 2px solid #222;
+    border-radius: 5px;
+    width: 400px;
+    background-color: #eee;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding: 15px 40px 40px;
+    margin: 50px auto;
+}
+
+.row {
+    margin: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row input[type="text"], input[type="email"], select {
+    padding: 10px 8px;
+    width: 100%;
+}
+
+.row .form-inline {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.btn-sub {
+    background-color: cornflowerblue;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: 2px 4px 40px rgba(0,0,0,0.2);
+    cursor: pointer;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-reset {
+    background-color: crimson;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: 2px 4px 40px rgba(0,0,0,0.2);
+    cursor: pointer;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.error {
+    color: crimson;
+}
